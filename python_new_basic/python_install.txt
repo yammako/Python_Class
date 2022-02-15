@@ -1,0 +1,7 @@
+1. python 공식 홈페이지에서 python download
+2. Install
+3. cmd 실행하여 python을 입력하면 python 실행됨.
+4. 환경 변수 설정 -> 시스템 변수 -> path -> python path 추가
+5. IDE 설치 (Visual Studio Code)
+6. VSC의 extension 설치 -> python 검색해서 설치
+7. Open folder해서 New file 만듬
