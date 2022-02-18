@@ -21,6 +21,9 @@ def domenu():
     print("OK")
 
 root = Tk()
+root.title("Integral Imaging")
+root.geometry("1920x1080")
+root.resizable(False, False)    # x, y 크기 변경 불가
 menubar = Menu(root)
 filemenu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="File", menu=filemenu)
@@ -42,3 +45,6 @@ helpmenu.add_command(label="About...", command=domenu)
 
 root.config(menu=menubar)
 root.mainloop()
+
+
+

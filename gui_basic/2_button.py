@@ -1,7 +1,7 @@
 from tkinter import *
 root = Tk()
 root.title("GUI basic")         # window 제목
-
+root.geometry("640x480")
 btn1 = Button(root, text="버튼1")
 btn1.pack()     # 버튼 출력
 

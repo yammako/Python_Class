@@ -20,7 +20,6 @@
 
 # # -------------------- user.py (end) --------------------
 
-
 import user
 import post
 user1 = user.User("yammako@gmail.com", "Myungjin Cho", "python", "Professor")
